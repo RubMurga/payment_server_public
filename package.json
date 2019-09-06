@@ -1,0 +1,29 @@
+{
+  "name": "notifications",
+  "version": "0.0.1",
+  "description": "REST based notifications microservice",
+  "main": "server.js",
+  "scripts": {
+    "std-check": "standard",
+    "std-fix": "standard --fix",
+    "start": "node app.js",
+    "test": "SET NODE_ENV=test & nyc --reporter=lcov --reporter=text mocha --exit --timeout 10000",
+    "test-w": "nodemon -x 'npm test'",
+    "watch": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "Ruben Murga",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "compression": "^1.7.1",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.2",
+    "mongoose": "^5.5.5",
+    "morgan": "^1.9.1",
+    "nodemailer": "^4.6.3",
+    "nodemon": "^1.19.0"
+  }
+}
