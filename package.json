@@ -17,7 +17,7 @@
   "author": "Ruben Murga",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^3.0.6",
+    "bcrypt": "^5.0.0",
     "compression": "^1.7.1",
     "dotenv": "^5.0.1",
     "express": "^4.16.2",
